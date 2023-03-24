@@ -13,8 +13,6 @@ import pinecone
 import streamlit as st
 from streamlit_chat import message
 
-os.environ['OPENAI_API_KEY'] = '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'
-
 
 pinecone.init(
     api_key="4550550e-1717-4068-8bd9-2481fa994c5a",  # find at app.pinecone.io
